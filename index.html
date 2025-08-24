@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo Cruz - Desarrollador Web | Creador de soluciones tecnológicas</title>
+    <meta name="description" content="Portafolio personal de Eduardo Cruz, desarrollador web y estudiante de ingeniería de sistemas">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>Eduardo Cruz</h2>
+                    <p>Desarrollador Web | Apasionado por la Tecnología y los Sistemas</p>
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item">
+                        <a href="#inicio" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#sobre-mi" class="nav-link">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#proyectos" class="nav-link">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#habilidades" class="nav-link">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacto" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección Inicio (Hero) -->
+    <section class="hero" id="inicio">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hola, soy <span class="highlight">Eduardo Cruz</span>
+                </h1>
+                <div class="typing-container">
+                    <p class="hero-subtitle">
+                        <span id="typed-text"></span>
+                        <span class="cursor">|</span>
+                    </p>
+                </div>
+                <p class="hero-description">
+                    Desarrollador web apasionado por crear experiencias digitales innovadoras y funcionales.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contacto" class="btn btn-primary">Contáctame</a>
+                    <a href="docs/CRUZ CALDERON EDUARDO - CV.pdf" class="btn btn-secondary" download>
+                        <i class="fas fa-download"></i> Descargar CV
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <i class="fas fa-code"></i>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#sobre-mi">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Sección Sobre mí -->
+    <section class="about" id="sobre-mi">
+        <div class="container">
+            <h2 class="section-title">Sobre mí</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="profile-pic">
+                        <img src="img/eduardo.jpg" alt="Eduardo Cruz" id="profile-img">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>¡Hola! Soy Eduardo Cruz</h3>
+                    <p>
+                        Profesional en desarrollo de Sistemas con pasión por el desarrollo web. 
+                        Me especializo en crear soluciones digitales modernas y funcionales 
+                        utilizando las últimas tecnologías web.
+                    </p>
+                    <p>
+                        Actualmente enfocado en el desarrollo frontend y backend, siempre 
+                        buscando aprender nuevas tecnologías y mejorar mis habilidades para 
+                        crear experiencias de usuario excepcionales.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://github.com/Eduardo224444-creador" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/tuusuario" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:jair_15_01@hotmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://twitter.com/tuusuario" target="_blank" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section class="projects" id="proyectos">
+        <div class="container">
+            <h2 class="section-title">Mis Proyectos</h2>
+            <div class="projects-slider">
+                <div class="slider-container">
+                    <div class="project-slide active">
+                        <div class="project-image">
+                            <img src="img/Ecommerce.png" alt="E-commerce Website" id="project1-img">
+                        </div>
+                        <div class="project-info">
+                            <h3>E-commerce Website</h3>
+                            <p>Desarrollo de una plataforma de e-commerce construida con Next.js, React y Tailwind CSS. El backend fue implementado con Node.js, utilizando JSON para la gestión de datos. El resultado es un sitio web moderno, rápido y optimizado para el comercio electrónico.</p>
+                            <div class="project-tags">
+                                <span class="tag">NEXT.JS</span>
+                                <span class="tag">TAILWIND CSS</span>
+                                <span class="tag">NODE.JS</span>
+                                <span class="tag">REACT</span>
+                                <span class="tag">RESPONSIVE</span>
+                            </div>
+                            <a href="hhttps://github.com/Eduardo224444-creador/Ferreteria" target="_blank" class="btn btn-primary">
+                                <i class="fab fa-github"></i> Ver Código
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-slide">
+                        <div class="project-image">
+                            <img src="img/farmacia.png" alt="Task Manager App" id="project2-img">
+                        </div>
+                        <div class="project-info">
+                            <h3>Sistema de gestión integral de inventario y ventas.</h3>
+                            <p>La aplicación fue desarrollada en Java y utiliza MySQL para la gestión de la base de datos, lo que permite un control preciso de productos, la gestión de clientes y proveedores, y la generación de informes en tiempo real.</p>
+                            <div class="project-tags">
+                                <span class="tag">JAVA</span>
+                                <span class="tag">SQL</span>
+                                <span class="tag">SPRING BOOT</span>
+                                
+                            </div>
+                            <a href="https://github.com/Eduardo224444-creador/Farma-Gos/tree/main/farmagos" target="_blank" class="btn btn-primary">
+                                <i class="fab fa-github"></i> Ver Código
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-slide">
+                        <div class="project-image">
+                            <img src="img/Medicina.png" alt="Portfolio Website" id="project3-img">
+                        </div>
+                        <div class="project-info">
+                            <h3>Aplicación de Salud Personal</h3>
+                            <p>Aplicación móvil de salud desarrollada de forma nativa para la plataforma Android utilizando el lenguaje de programación Kotlin y el entorno de desarrollo Android Studio. El objetivo principal de la aplicación es ofrecer a los usuarios una herramienta intuitiva para el seguimiento y gestión de aspectos clave de su bienestar personal.</p>
+                            <div class="project-tags">
+                                <span class="tag">KOTLIN</span>
+                                
+                            </div>
+                            <a href="https://github.com/Eduardo224444-creador/appmedica/tree/main" target="_blank" class="btn btn-primary">
+                                <i class="fab fa-github"></i> Ver Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="slider-btn prev-btn" id="prevBtn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="slider-btn next-btn" id="nextBtn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+
+                <div class="slider-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Habilidades -->
+    <section class="skills" id="habilidades">
+        <div class="container">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="90%"></div>
+                    </div>
+                    <span class="percentage">90%</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="85%"></div>
+                    </div>
+                    <span class="percentage">85%</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="80%"></div>
+                    </div>
+                    <span class="percentage">80%</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="75%"></div>
+                    </div>
+                    <span class="percentage">75%</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-php"></i>
+                    </div>
+                    <h3>PHP</h3>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="70%"></div>
+                    </div>
+                    <span class="percentage">70%</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>MySQL</h3>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="75%"></div>
+                    </div>
+                    <span class="percentage">75%</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h3>Git</h3>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="85%"></div>
+                    </div>
+                    <span class="percentage">85%</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>React</h3>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="60%"></div>
+                    </div>
+                    <span class="percentage">60%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <h2 class="section-title">Contáctame</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>¡Hablemos!</h3>
+                    <p>¿Tienes un proyecto en mente o quieres colaborar? Me encantaría escuchar de ti.</p>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>jair_15_01@hotmail.com</span>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+51 917 400 490</span>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Lima, Perú</span>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/Eduardo224444-creador" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/tuusuario" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:jair_15_01@hotmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contact-form" action="php/contact.php" method="POST">
+                    <div class="form-group">
+                        <label for="name">Nombre completo</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="error-message" id="name-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message" id="email-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Asunto</label>
+                        <input type="text" id="subject" name="subject" required>
+                        <span class="error-message" id="subject-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <span class="error-message" id="message-error"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary submit-btn">
+                        <span class="btn-text">Enviar Mensaje</span>
+                        <span class="btn-loading" style="display: none;">
+                            <i class="fas fa-spinner fa-spin"></i> Enviando...
+                        </span>
+                    </button>
+
+                    <div class="form-message" id="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Eduardo Cruz. Todos los derechos reservados.</p>
+                <div class="footer-links">
+                    <a href="https://github.com/Eduardo224444-creador" target="_blank">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
